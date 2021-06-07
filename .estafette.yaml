@@ -51,7 +51,5 @@ bots:
         - watch
         - integration_installation_repositories
     stages:
-      backup:
-        image: alpine:latest
-        commands:
-        - echo 'thanks for running me'
+      bot:
+        image: extensions/bot-github:dev
